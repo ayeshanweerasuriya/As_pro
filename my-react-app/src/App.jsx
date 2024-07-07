@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import Home from "./Home";
-import LearnTW from "./LearnTW";
+import SearchBar from "./SearchBar";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <div className="content">
         <Home />
       </div> */}
-      <LearnTW />
+      <SearchBar />
     </div>
   );
 }

@@ -1,15 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 /* base styles */
-/* * {
+* {
   margin: 0;
   font-family: "Quicksand";
   color: #333;
 }
+
+/*
 .navbar {
   padding: 20px;
   display: flex;
@@ -54,3 +50,26 @@
   color: #f1356d;
   margin-bottom: 8px;
 } */
+
+/* search learn please delete */
+
+.search-main-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.dropdown {
+  border: 1px solid black;
+}
+
+.suggestion:hover {
+  cursor: pointer;
+  background-color: #cecece;
+}
